@@ -1,0 +1,47 @@
+body, html, header{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.vertical_separation {
+    margin: 5px 0px;
+}
+
+.calc_btn {
+    min-width: 40px;
+}
+
+.row_corr_margin {
+    margin-left: -22px !important;
+}
+.calculator {
+    width: 15%;
+    border: 1px solid grey;
+    margin: auto;
+    border-radius: 5px;
+}
+.input{
+    width: 100%;
+}
+.numbers{
+    width: 50%;
+    float: left;
+}
+.flt-left{
+    float: left;
+    size: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+.zero{
+    width: 34%;
+}
+.operators{
+    margin: 10px;
+    padding: 3px;
+    width: 50%;
+
+}
